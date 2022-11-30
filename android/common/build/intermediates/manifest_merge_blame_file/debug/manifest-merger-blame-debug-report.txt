@@ -1,0 +1,152 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<!--
+3       Licensed to the Apache Software Foundation (ASF) under one
+4       or more contributor license agreements.  See the NOTICE file
+5       distributed with this work for additional information
+6       regarding copyright ownership.  The ASF licenses this file
+7       to you under the Apache License, Version 2.0 (the
+8       "License"); you may not use this file except in compliance
+9       with the License.  You may obtain a copy of the License at
+10
+11         http://www.apache.org/licenses/LICENSE-2.0
+12
+13       Unless required by applicable law or agreed to in writing,
+14       software distributed under the License is distributed on an
+15       "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+16       KIND, either express or implied.  See the License for the
+17       specific language governing permissions and limitations
+18       under the License.
+19-->
+20<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+21    package="com.marianhello.backgroundgeolocation"
+22    android:versionCode="1"
+23    android:versionName="1.0" >
+24
+25    <uses-sdk android:minSdkVersion="21" />
+25-->/Volumes/Data/works/legs/node_modules/@darron1217/react-native-background-geolocation/android/common/src/main/AndroidManifest.xml
+26
+27    <uses-permission android:name="android.hardware.location" />
+27-->/Volumes/Data/works/legs/node_modules/@darron1217/react-native-background-geolocation/android/common/src/main/AndroidManifest.xml:56:5-65
+27-->/Volumes/Data/works/legs/node_modules/@darron1217/react-native-background-geolocation/android/common/src/main/AndroidManifest.xml:56:22-62
+28    <uses-permission android:name="android.permission.INTERNET" />
+28-->/Volumes/Data/works/legs/node_modules/@darron1217/react-native-background-geolocation/android/common/src/main/AndroidManifest.xml:57:5-66
+28-->/Volumes/Data/works/legs/node_modules/@darron1217/react-native-background-geolocation/android/common/src/main/AndroidManifest.xml:57:22-64
+29    <uses-permission android:name="android.permission.WAKE_LOCK" />
+29-->/Volumes/Data/works/legs/node_modules/@darron1217/react-native-background-geolocation/android/common/src/main/AndroidManifest.xml:58:5-68
+29-->/Volumes/Data/works/legs/node_modules/@darron1217/react-native-background-geolocation/android/common/src/main/AndroidManifest.xml:58:22-65
+30    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+30-->/Volumes/Data/works/legs/node_modules/@darron1217/react-native-background-geolocation/android/common/src/main/AndroidManifest.xml:59:5-79
+30-->/Volumes/Data/works/legs/node_modules/@darron1217/react-native-background-geolocation/android/common/src/main/AndroidManifest.xml:59:22-76
+31    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+31-->/Volumes/Data/works/legs/node_modules/@darron1217/react-native-background-geolocation/android/common/src/main/AndroidManifest.xml:60:5-81
+31-->/Volumes/Data/works/legs/node_modules/@darron1217/react-native-background-geolocation/android/common/src/main/AndroidManifest.xml:60:22-78
+32    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+32-->/Volumes/Data/works/legs/node_modules/@darron1217/react-native-background-geolocation/android/common/src/main/AndroidManifest.xml:61:5-79
+32-->/Volumes/Data/works/legs/node_modules/@darron1217/react-native-background-geolocation/android/common/src/main/AndroidManifest.xml:61:22-76
+33    <uses-permission android:name="android.permission.ACCESS_LOCATION_EXTRA_COMMANDS" />
+33-->/Volumes/Data/works/legs/node_modules/@darron1217/react-native-background-geolocation/android/common/src/main/AndroidManifest.xml:62:5-89
+33-->/Volumes/Data/works/legs/node_modules/@darron1217/react-native-background-geolocation/android/common/src/main/AndroidManifest.xml:62:22-86
+34    <uses-permission android:name="com.google.android.gms.permission.ACTIVITY_RECOGNITION" />
+34-->/Volumes/Data/works/legs/node_modules/@darron1217/react-native-background-geolocation/android/common/src/main/AndroidManifest.xml:63:5-94
+34-->/Volumes/Data/works/legs/node_modules/@darron1217/react-native-background-geolocation/android/common/src/main/AndroidManifest.xml:63:22-91
+35    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+35-->/Volumes/Data/works/legs/node_modules/@darron1217/react-native-background-geolocation/android/common/src/main/AndroidManifest.xml:64:5-81
+35-->/Volumes/Data/works/legs/node_modules/@darron1217/react-native-background-geolocation/android/common/src/main/AndroidManifest.xml:64:22-78
+36    <uses-permission android:name="android.permission.READ_SYNC_SETTINGS" />
+36-->/Volumes/Data/works/legs/node_modules/@darron1217/react-native-background-geolocation/android/common/src/main/AndroidManifest.xml:65:5-76
+36-->/Volumes/Data/works/legs/node_modules/@darron1217/react-native-background-geolocation/android/common/src/main/AndroidManifest.xml:65:22-74
+37    <uses-permission android:name="android.permission.WRITE_SYNC_SETTINGS" />
+37-->/Volumes/Data/works/legs/node_modules/@darron1217/react-native-background-geolocation/android/common/src/main/AndroidManifest.xml:66:5-77
+37-->/Volumes/Data/works/legs/node_modules/@darron1217/react-native-background-geolocation/android/common/src/main/AndroidManifest.xml:66:22-75
+38    <uses-permission android:name="android.permission.AUTHENTICATE_ACCOUNTS" />
+38-->/Volumes/Data/works/legs/node_modules/@darron1217/react-native-background-geolocation/android/common/src/main/AndroidManifest.xml:67:5-79
+38-->/Volumes/Data/works/legs/node_modules/@darron1217/react-native-background-geolocation/android/common/src/main/AndroidManifest.xml:67:22-77
+39    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+39-->/Volumes/Data/works/legs/node_modules/@darron1217/react-native-background-geolocation/android/common/src/main/AndroidManifest.xml:68:5-77
+39-->/Volumes/Data/works/legs/node_modules/@darron1217/react-native-background-geolocation/android/common/src/main/AndroidManifest.xml:68:22-74
+40
+41    <application>
+41-->/Volumes/Data/works/legs/node_modules/@darron1217/react-native-background-geolocation/android/common/src/main/AndroidManifest.xml:22:5-54:19
+42        <service
+42-->/Volumes/Data/works/legs/node_modules/@darron1217/react-native-background-geolocation/android/common/src/main/AndroidManifest.xml:23:9-32:19
+43            android:name="com.marianhello.bgloc.sync.SyncService"
+43-->/Volumes/Data/works/legs/node_modules/@darron1217/react-native-background-geolocation/android/common/src/main/AndroidManifest.xml:24:13-66
+44            android:exported="true"
+44-->/Volumes/Data/works/legs/node_modules/@darron1217/react-native-background-geolocation/android/common/src/main/AndroidManifest.xml:25:13-36
+45            android:process=":sync" >
+45-->/Volumes/Data/works/legs/node_modules/@darron1217/react-native-background-geolocation/android/common/src/main/AndroidManifest.xml:26:13-36
+46            <intent-filter>
+46-->/Volumes/Data/works/legs/node_modules/@darron1217/react-native-background-geolocation/android/common/src/main/AndroidManifest.xml:27:13-29:29
+47                <action android:name="android.content.SyncAdapter" />
+47-->/Volumes/Data/works/legs/node_modules/@darron1217/react-native-background-geolocation/android/common/src/main/AndroidManifest.xml:28:17-69
+47-->/Volumes/Data/works/legs/node_modules/@darron1217/react-native-background-geolocation/android/common/src/main/AndroidManifest.xml:28:25-67
+48            </intent-filter>
+49
+50            <meta-data
+50-->/Volumes/Data/works/legs/node_modules/@darron1217/react-native-background-geolocation/android/common/src/main/AndroidManifest.xml:30:13-31:54
+51                android:name="android.content.SyncAdapter"
+51-->/Volumes/Data/works/legs/node_modules/@darron1217/react-native-background-geolocation/android/common/src/main/AndroidManifest.xml:30:24-66
+52                android:resource="@xml/syncadapter" />
+52-->/Volumes/Data/works/legs/node_modules/@darron1217/react-native-background-geolocation/android/common/src/main/AndroidManifest.xml:31:17-52
+53        </service>
+54        <service
+54-->/Volumes/Data/works/legs/node_modules/@darron1217/react-native-background-geolocation/android/common/src/main/AndroidManifest.xml:33:9-42:19
+55            android:name="com.marianhello.bgloc.sync.AuthenticatorService"
+55-->/Volumes/Data/works/legs/node_modules/@darron1217/react-native-background-geolocation/android/common/src/main/AndroidManifest.xml:35:13-75
+56            android:exported="true" >
+56-->/Volumes/Data/works/legs/node_modules/@darron1217/react-native-background-geolocation/android/common/src/main/AndroidManifest.xml:34:13-36
+57            <intent-filter>
+57-->/Volumes/Data/works/legs/node_modules/@darron1217/react-native-background-geolocation/android/common/src/main/AndroidManifest.xml:36:13-38:29
+58                <action android:name="android.accounts.AccountAuthenticator" />
+58-->/Volumes/Data/works/legs/node_modules/@darron1217/react-native-background-geolocation/android/common/src/main/AndroidManifest.xml:37:17-79
+58-->/Volumes/Data/works/legs/node_modules/@darron1217/react-native-background-geolocation/android/common/src/main/AndroidManifest.xml:37:25-77
+59            </intent-filter>
+60
+61            <meta-data
+61-->/Volumes/Data/works/legs/node_modules/@darron1217/react-native-background-geolocation/android/common/src/main/AndroidManifest.xml:39:13-41:57
+62                android:name="android.accounts.AccountAuthenticator"
+62-->/Volumes/Data/works/legs/node_modules/@darron1217/react-native-background-geolocation/android/common/src/main/AndroidManifest.xml:40:17-69
+63                android:resource="@xml/authenticator" />
+63-->/Volumes/Data/works/legs/node_modules/@darron1217/react-native-background-geolocation/android/common/src/main/AndroidManifest.xml:41:17-54
+64        </service>
+65
+66        <provider
+66-->/Volumes/Data/works/legs/node_modules/@darron1217/react-native-background-geolocation/android/common/src/main/AndroidManifest.xml:43:9-47:38
+67            android:name="com.marianhello.bgloc.data.provider.LocationContentProvider"
+67-->/Volumes/Data/works/legs/node_modules/@darron1217/react-native-background-geolocation/android/common/src/main/AndroidManifest.xml:44:13-87
+68            android:authorities="@string/mauron85_bgloc_content_authority"
+68-->/Volumes/Data/works/legs/node_modules/@darron1217/react-native-background-geolocation/android/common/src/main/AndroidManifest.xml:45:13-75
+69            android:exported="false"
+69-->/Volumes/Data/works/legs/node_modules/@darron1217/react-native-background-geolocation/android/common/src/main/AndroidManifest.xml:46:13-37
+70            android:syncable="true" />
+70-->/Volumes/Data/works/legs/node_modules/@darron1217/react-native-background-geolocation/android/common/src/main/AndroidManifest.xml:47:13-36
+71
+72        <service
+72-->/Volumes/Data/works/legs/node_modules/@darron1217/react-native-background-geolocation/android/common/src/main/AndroidManifest.xml:48:9-174
+73            android:name="com.marianhello.bgloc.service.LocationServiceImpl"
+73-->/Volumes/Data/works/legs/node_modules/@darron1217/react-native-background-geolocation/android/common/src/main/AndroidManifest.xml:48:66-130
+74            android:enabled="true"
+74-->/Volumes/Data/works/legs/node_modules/@darron1217/react-native-background-geolocation/android/common/src/main/AndroidManifest.xml:48:18-40
+75            android:exported="false"
+75-->/Volumes/Data/works/legs/node_modules/@darron1217/react-native-background-geolocation/android/common/src/main/AndroidManifest.xml:48:41-65
+76            android:foregroundServiceType="location" />
+76-->/Volumes/Data/works/legs/node_modules/@darron1217/react-native-background-geolocation/android/common/src/main/AndroidManifest.xml:48:131-171
+77
+78        <receiver
+78-->/Volumes/Data/works/legs/node_modules/@darron1217/react-native-background-geolocation/android/common/src/main/AndroidManifest.xml:49:9-53:20
+79            android:name="com.marianhello.bgloc.BootCompletedReceiver"
+79-->/Volumes/Data/works/legs/node_modules/@darron1217/react-native-background-geolocation/android/common/src/main/AndroidManifest.xml:49:66-124
+80            android:enabled="true"
+80-->/Volumes/Data/works/legs/node_modules/@darron1217/react-native-background-geolocation/android/common/src/main/AndroidManifest.xml:49:19-41
+81            android:exported="true" >
+81-->/Volumes/Data/works/legs/node_modules/@darron1217/react-native-background-geolocation/android/common/src/main/AndroidManifest.xml:49:42-65
+82            <intent-filter>
+82-->/Volumes/Data/works/legs/node_modules/@darron1217/react-native-background-geolocation/android/common/src/main/AndroidManifest.xml:50:13-52:29
+83                <action android:name="android.intent.action.BOOT_COMPLETED" />
+83-->/Volumes/Data/works/legs/node_modules/@darron1217/react-native-background-geolocation/android/common/src/main/AndroidManifest.xml:51:17-79
+83-->/Volumes/Data/works/legs/node_modules/@darron1217/react-native-background-geolocation/android/common/src/main/AndroidManifest.xml:51:25-76
+84            </intent-filter>
+85        </receiver>
+86    </application>
+87
+88</manifest>
